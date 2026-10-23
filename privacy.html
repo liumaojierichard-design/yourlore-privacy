@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourLore · Urban Legend Pilgrimage — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for YourLore (你探) · Urban Legend Pilgrimage: local-first, no account, no server, no database, no tracking." />
+  <meta name="robots" content="index, follow" />
+  <style>
+    /* 配色与小程序同源（App.vue 设计令牌 ADR-2「夜里的明信片」）：
+       改色只许跟令牌走，不许另起色板 */
+    :root {
+      --bg: #181C2B;        /* 主背景 深墨蓝夜色（= --bg-night，不要纯黑） */
+      --ink: #ECE7F5;       /* 标题正文（= --text） */
+      --mut: #9A93AE;       /* 次要文字（= --text-mut） */
+      --brand: #2E8BC0;     /* 主品牌蓝（= --sky） */
+      --brand2: #5AA9DC;    /* 品牌亮蓝：深底上的强调色 */
+      --line: rgba(255, 255, 255, 0.08);
+      --warn: #D9A441;       /* 占位提醒色：琥珀黄，深底上可读 */
+      --warnbg: rgba(217, 164, 65, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    h1 {
+      font-size: 30px;
+      margin: 0 0 4px;
+      color: var(--ink);
+      font-weight: 700;
+    }
+    .sub { color: var(--mut); font-size: 16px; margin: 0 0 4px; }
+    .meta { color: var(--mut); font-size: 13px; opacity: .8; margin: 0 0 24px; }
+    .notice {
+      background: rgba(46, 139, 192, .12);
+      border: 1px solid rgba(46, 139, 192, .35);
+      border-radius: 12px;
+      padding: 16px 18px;
+      color: var(--brand2);
+      font-size: 15px;
+      margin-bottom: 28px;
+    }
+    /* 发布前占位提醒：占位没替换完不要发布 */
+    .todo {
+      background: var(--warnbg);
+      border: 1px solid rgba(217, 164, 65, .45);
+      border-radius: 12px;
+      padding: 16px 18px;
+      color: var(--warn);
+      font-size: 14px;
+      margin-bottom: 28px;
+    }
+    .todo strong { color: var(--warn); }
+    h2 {
+      font-size: 20px;
+      margin: 34px 0 10px;
+      color: var(--ink);
+      border-left: 4px solid var(--brand2);
+      padding-left: 12px;
+    }
+    h3 {
+      font-size: 16px;
+      margin: 22px 0 8px;
+      color: var(--ink);
+    }
+    p { font-size: 15px; color: var(--mut); margin: 0 0 10px; }
+    ul { padding-left: 20px; margin: 8px 0 10px; }
+    li { font-size: 15px; color: var(--mut); margin-bottom: 5px; }
+    strong { color: var(--ink); }
+    /* 表格：政策里几张表必须能横向滚，窄屏不撑破布局 */
+    .tw { overflow-x: auto; margin: 12px 0 18px; -webkit-overflow-scrolling: touch; }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 580px;
+      font-size: 13.5px;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 9px 11px;
+      text-align: left;
+      vertical-align: top;
+      color: var(--mut);
+    }
+    th {
+      background: rgba(255, 255, 255, .04);
+      color: var(--ink);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    td:first-child { color: var(--ink); }
+    .placeholder {
+      color: var(--warn);
+      background: var(--warnbg);
+      padding: 0 4px;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 28px 0 0;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      text-align: center;
+      color: var(--mut);
+      font-size: 13px;
+      opacity: .75;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>YourLore · Urban Legend Pilgrimage</h1>
+    <p class="sub">Privacy Policy</p>
+    <p class="meta">Version: <span class="placeholder">[VERSION]</span> &nbsp;|&nbsp; Effective date: <span class="placeholder">[EFFECTIVE DATE]</span> &nbsp;|&nbsp; Last updated: <span class="placeholder">[EFFECTIVE DATE]</span></p>
+
+    <div class="todo">
+      <strong>Replace 5 placeholders before publishing</strong>: privacy email, office address, ICP filing number, version, effective date.<br>
+      The entity name <strong>Fissiles Games</strong> is already fixed — the store listing must use it exactly. Delete this box once the placeholders are filled.
+    </div>
+
+    <div class="notice">
+      <strong>The App is local-first. It has no account system, no server, no database, and makes no network requests.</strong> Everything you type, tap, photograph, or post stays on your device. We operate no servers, run no analytics, embed no advertising or tracking SDKs, and cannot see your data. This is the strongest privacy posture an app can have, and this policy explains it in full.
+    </div>
+
+    <h2>1. Who we are</h2>
+
+    <h3>1.1 Data controller</h3>
+    <p><strong>Fissiles Games</strong>, an entity established in the People's Republic of China (Chengdu, Sichuan) (Chinese registered name: <strong>热核游戏(成都)有限公司</strong>), is the controller ("we", "us", "our") for the App.</p>
+    <ul>
+      <li><strong>App name:</strong> YourLore · Urban Legend Pilgrimage (Chinese name: 你探 · YOURLORE / 都市传说巡礼)</li>
+      <li><strong>Registered address:</strong> <span class="placeholder">[OFFICE ADDRESS]</span></li>
+      <li><strong>ICP filing number:</strong> <span class="placeholder">[REGISTRATION NUMBER]</span></li>
+      <li><strong>Privacy contact:</strong> <span class="placeholder">[PRIVACY EMAIL]</span></li>
+    </ul>
+    <p>The App is developed and operated by the entity above. Where the App is distributed through third-party platforms (Apple App Store, Google Play), those platforms act as distributors or gateways and are governed by their own privacy policies; we are not responsible for their processing.</p>
+
+    <h3>1.2 Scope</h3>
+    <p>This policy applies to the App as distributed <strong>outside mainland China</strong>. If you obtained the App through channels within mainland China (including WeChat Mini Program), the Mainland China version of this policy applies instead, and it is presented to you in Simplified Chinese at first launch.</p>
+
+    <h3>1.3 What this policy is not</h3>
+    <p>Because the App does not collect, transmit, or share personal data, most of the machinery that privacy laws describe — lawful bases, processing purposes, retention schedules, data transfers, processors, supervisory authorities — has nothing to operate on. We still explain each area below so you can verify our claims rather than take them on faith.</p>
+
+    <h2>2. Summary of what we do and do not do</h2>
+
+    <h3>2.1 What we do not do</h3>
+    <p>We want to be unambiguous about the negative claims, because they are the substantive part of this policy:</p>
+    <ul>
+      <li>We do <strong>not</strong> operate a server, and we do <strong>not</strong> collect your personal data on any server.</li>
+      <li>We do <strong>not</strong> require, request, or store an account, a phone number, an email address, or any identifier that could identify you across apps or devices.</li>
+      <li>We do <strong>not</strong> obtain your WeChat user identifier (OpenID / UnionID). The App contains no code that requests a WeChat login session.</li>
+      <li>We do <strong>not</strong> embed advertising, analytics, attribution, crash-reporting, or cross-app tracking SDKs. The App contains no third-party SDKs at all.</li>
+      <li>We do <strong>not</strong> read your clipboard contents. We write to it, and only when you tap "Copy share text".</li>
+      <li>We do <strong>not</strong> read photos from your library other than the single image you personally select through the system photo picker.</li>
+      <li>We do <strong>not</strong> perform background or continuous location tracking, and we do <strong>not</strong> build a history of your movements.</li>
+      <li>We do <strong>not</strong> use device fingerprinting, advertising identifiers (such as IDFA or GAID), or cross-device tracking.</li>
+      <li>We do <strong>not</strong> sell, rent, trade, or otherwise disclose your personal information to third parties. We have no third parties to disclose it to.</li>
+      <li>We do <strong>not</strong> use your data for advertising, profiling, or automated decision-making that produces legal or similarly significant effects.</li>
+    </ul>
+
+    <h3>2.2 What we do</h3>
+    <p>The App provides a local-first way to record urban legends you have visited, collect stamps, and share illustrated cards. To do this it stores certain data <strong>on your device only</strong>, and it requests a small number of device permissions at the moment you use the corresponding feature.</p>
+
+    <h2>3. Information processed, and where it lives</h2>
+    <p>The table below is exhaustive. Every entry is stored <strong>on your device</strong> and none of it is transmitted to us.</p>
+    <div class="tw">
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Source</th><th>Purpose</th><th>Storage location</th><th>Retention</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Visited legends (IDs) and favourites (IDs)</td><td>Your taps on "Visited" / "Favourite"</td><td>Generate passport stamps, light up the map, compute achievements and travel footprint</td><td>Your device</td><td>Until you delete it or clear local data</td></tr>
+          <tr><td>Profile: nickname (≤12 characters), signature (≤24 characters), avatar (one of a fixed set of preset graphics)</td><td>Your input in Settings → Edit Profile</td><td>Display your profile card; attribute your posts</td><td>Your device</td><td>Until you delete it or clear local data</td></tr>
+          <tr><td>Preferences: "how scary can you handle" level; footprint visibility</td><td>Your adjustments</td><td>Filter content by suspense rating; control who can see your footprint</td><td>Your device</td><td>Until you delete it or clear local data</td></tr>
+          <tr><td>Content you submit: short reviews, correction reports, on-site photos, and legends you create or edit in the content manager</td><td>Your submissions</td><td>Display and review within the App</td><td>Your device</td><td>Until you delete it or clear local data</td></tr>
+          <tr><td>Share artifacts: share text and card images</td><td>Your taps on Share / Copy / Save to Photos</td><td>Generate shareable cards; text is written to your clipboard, images to your photo library</td><td>Your clipboard, your photo library</td><td>Governed by you and your OS</td></tr>
+          <tr><td>Share count; launch commemorative stamp status</td><td>Your taps</td><td>Compute achievements such as "Evangelist"</td><td>Your device</td><td>Until you delete it or clear local data</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>3.1 A note on identifiers</h3>
+    <p>Because the App assigns no identifier to you and transmits nothing, the rows above cannot be linked to you, to your device, or to any other row in the table, by us or by anyone else. Even where the App shows you a nickname you chose yourself, that string never reaches our infrastructure.</p>
+
+    <h3>3.2 On-device processing</h3>
+    <p>We do process information on your device in order to render the interface — filtering the legend list by your suspense tolerance, drawing your passport stamps, composing the share card. This processing happens on your device, under your control, and its results are not transmitted.</p>
+
+    <h2>4. Device permissions we request</h2>
+    <p>Each permission is requested only at the moment you trigger the corresponding feature, and only for the purpose below.</p>
+    <div class="tw">
+      <table>
+        <thead>
+          <tr><th>Permission</th><th>Requested when</th><th>Used for</th><th>If you decline</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Photo library — write only</td><td>You tap "Save to Photos"</td><td>Write the share card image to your library</td><td>Card saving unavailable; nothing else affected</td></tr>
+          <tr><td>Photo library — read; Camera</td><td>You tap "Upload on-site photo"</td><td>Select or capture one on-site photo</td><td>Photo upload unavailable; nothing else affected</td></tr>
+          <tr><td>Location — <strong>only a location you pick manually</strong></td><td>You mark a coordinate for a legend in the content manager</td><td>Read the single coordinate you selected</td><td>Map point-marking unavailable; nothing else affected</td></tr>
+          <tr><td>Clipboard — write only</td><td>You tap "Copy share text"</td><td>Place the share text on your clipboard</td><td>One-tap copy unavailable; you can copy manually</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>We never request:</strong> background location, continuous location, contacts, SMS, call logs, microphone, or the list of installed apps.</p>
+
+    <h2>5. Storage, security, and retention</h2>
+
+    <h3>5.1 On-device storage</h3>
+    <p>Data is written to storage allocated to the App by your operating system — the App's private sandbox on iOS and Android, or the local storage area assigned to the Mini Program on WeChat.</p>
+    <ul>
+      <li>Uninstalling the App, deleting the Mini Program, or using the App's "Clear local archive" function removes this data. We cannot restore it, and we cannot read it.</li>
+      <li><strong>We hold no backup, no snapshot, and no server-side copy of any of it.</strong> There is nothing for us to delete on request, because nothing reached us.</li>
+    </ul>
+
+    <h3>5.2 Security</h3>
+    <p>Because no personal data is transmitted to us, the principal risk to your data is a compromise of your own device. We therefore rely on the protections your operating system already provides: application sandboxing, per-app storage isolation, and permission gating. We do not implement additional encryption for local data, because local data never traverses a network where encryption would matter.</p>
+    <p>If your device is compromised, the App's data on it is exposed to the same degree as any other app's data on that device.</p>
+
+    <h3>5.3 Retention</h3>
+    <p>There is no server-side retention period to state, because there is no server-side copy. On-device data persists until you delete it, clear local storage, or uninstall.</p>
+
+    <h2>6. Sharing, disclosure, and transfer to third parties</h2>
+
+    <h3>6.1 Sharing</h3>
+    <p>We do not disclose your personal information to third parties for their own purposes, and we do not make any of it available to advertisers or data brokers. We have no advertising or analytics partners.</p>
+
+    <h3>6.2 Legal disclosure</h3>
+    <p>We will disclose personal information only where we are legally required to do so by a competent authority, and only to the extent required. As our technical architecture involves no personal data in our possession, in practice we would be unable to comply with such a request for your on-device data, and we will say so rather than pretend otherwise.</p>
+
+    <h3>6.3 International transfers</h3>
+    <p><strong>No personal data is transferred across borders</strong>, because none leaves your device. If a cloud-synchronisation feature is introduced in a future release, we will update this policy before that feature becomes available, and will describe the destination country and the transfer mechanism at that time.</p>
+
+    <h3>6.4 Platform operators</h3>
+    <p>The App may be distributed through the Apple App Store and Google Play. Those platforms transmit basic technical information (such as an IP address and device model) under their own privacy policies. We do not control, and are not responsible for, that processing.</p>
+    <p>Where the App runs as a WeChat Mini Program, WeChat processes information necessary to deliver the Mini Program service (including the association between your WeChat account and the Mini Program) under WeChat's own privacy policy. We do not receive your WeChat OpenID or UnionID.</p>
+
+    <h2>7. Your rights</h2>
+    <p>Depending on where you live, you may hold rights such as access, rectification, erasure, restriction, objection, portability, or non-discrimination. <strong>Because we hold no copy of your personal data, most of these rights are satisfied directly on your device, which is faster and more complete than any request to us could be.</strong></p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>Right</th><th>How to exercise it</th></tr></thead>
+        <tbody>
+          <tr><td>Access / view</td><td>All data is visible in the App itself</td></tr>
+          <tr><td>Rectify</td><td>Edit your nickname, signature, or avatar in Settings → Edit Profile</td></tr>
+          <tr><td>Erase a single item</td><td>My → Posts, and delete individually</td></tr>
+          <tr><td>Erase everything</td><td>My → Settings → Clear local archive (one action, irreversible)</td></tr>
+          <tr><td>Withdraw a permission</td><td>OS Settings → Privacy → Photos / Location / Camera</td></tr>
+          <tr><td>Delete the App entirely</td><td>Uninstall — all local data is removed with it</td></tr>
+          <tr><td>Object to / restrict processing</td><td>There is no processing on our side to object to; if you wish to stop all of it, uninstall</td></tr>
+          <tr><td>Data portability</td><td>Not applicable — we hold no portable copy; you can export your own content from the App</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>7.1 Contacting us</h3>
+    <p>If you have a question we have not answered here, or you wish to make a formal request, contact us at <strong><span class="placeholder">[PRIVACY EMAIL]</span></strong>. We will respond within 15 business days. If you are in the EEA, the UK, or Switzerland, you also have the right to lodge a complaint with your local data protection authority.</p>
+
+    <h3>7.2 Automated decision-making</h3>
+    <p>We do not use automated decision-making that produces legal or similarly significant effects on you. The suspense filter is a deterministic comparison you control, not a profile of you.</p>
+
+    <h2>8. Children's privacy</h2>
+    <p>The App is not directed to children under 13, and we do not knowingly collect personal information from children. Because the App collects nothing from anyone, no personal information is collected from children either.</p>
+    <p>If you are the parent or guardian of a child who has used the App, uninstalling the App or clearing its local archive removes all local data associated with that use.</p>
+
+    <h2>9. Third-party SDKs and components</h2>
+    <p>The App embeds <strong>no third-party SDKs</strong>. It does not include advertising, analytics, attribution, crash-reporting, social login, payment, or push-notification SDKs. The map is rendered by the operating system's native map component, and sharing uses the operating system's share sheet.</p>
+    <p>If this ever changes, this section will be updated before the change ships.</p>
+
+    <h2>10. Cookies and local storage</h2>
+    <p>The App is not a browser application and runs no web code, so it uses no cookies and no web tracking technologies.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this policy as the App changes. The "Last updated" date at the top always reflects the current version.</p>
+    <ul>
+      <li><strong>Material changes</strong> — for example, a feature that transmits data to a server, or a broadened use of existing data — will be announced through the release notes and a prominent in-App notice before the change becomes available, and we will seek your consent again where required.</li>
+      <li>Where a change requires consent, the affected feature stays unavailable to you until you give it.</li>
+    </ul>
+    <p>Continued use of the App after an update means you accept the updated policy.</p>
+
+    <h2>12. How to contact us</h2>
+    <div class="tw">
+      <table>
+        <tbody>
+          <tr><td>Entity / controller</td><td>Fissiles Games (Chinese registered name: 热核游戏(成都)有限公司)</td></tr>
+          <tr><td>Privacy contact email</td><td><span class="placeholder">[PRIVACY EMAIL]</span></td></tr>
+          <tr><td>Postal address</td><td><span class="placeholder">[OFFICE ADDRESS]</span></td></tr>
+          <tr><td>ICP filing number</td><td><span class="placeholder">[REGISTRATION NUMBER]</span></td></tr>
+          <tr><td>Response time</td><td>Within 15 business days of receipt</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <hr />
+    <footer>YourLore · YOURLORE &nbsp;|&nbsp; Urban Legend Pilgrimage</footer>
+  </main>
+</body>
+</html>

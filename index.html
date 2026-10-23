@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourLore Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for YourLore (你探) · Urban Legend Pilgrimage. Choose the version for your distribution channel and region." />
+  <meta name="robots" content="index, follow" />
+  <style>
+    :root {
+      --bg: #181C2B;
+      --ink: #ECE7F5;
+      --mut: #9A93AE;
+      --brand: #2E8BC0;
+      --brand2: #5AA9DC;
+      --line: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+    h1 {
+      font-size: 30px;
+      margin: 0 0 6px;
+      font-weight: 700;
+    }
+    .sub { color: var(--mut); font-size: 16px; margin: 0 0 32px; }
+    .links { display: flex; flex-direction: column; gap: 14px; }
+    a.card {
+      display: block;
+      text-decoration: none;
+      color: var(--ink);
+      background: rgba(46, 139, 192, .10);
+      border: 1px solid rgba(46, 139, 192, .35);
+      border-radius: 14px;
+      padding: 18px 20px;
+      transition: background .15s ease, border-color .15s ease;
+    }
+    a.card:hover {
+      background: rgba(46, 139, 192, .18);
+      border-color: var(--brand2);
+    }
+    a.card .t { font-size: 17px; font-weight: 600; color: var(--brand2); }
+    a.card .d { font-size: 14px; color: var(--mut); margin-top: 4px; }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--mut);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>YourLore Privacy Policy</h1>
+    <p class="sub">Choose the privacy policy applicable to your distribution channel and region.</p>
+
+    <div class="links">
+      <a class="card" href="privacy.html">
+        <div class="t">Google Play / International — English</div>
+        <div class="d">For App Store, Google Play, and all regions outside mainland China.</div>
+      </a>
+      <a class="card" href="privacy-cn.html">
+        <div class="t">中国大陆地区 — 简体中文</div>
+        <div class="d">微信小程序及中国大陆各安卓应用商店适用版本。</div>
+      </a>
+    </div>
+
+    <footer>
+      YourLore · 你探 · Urban Legend Pilgrimage — local-first, no account, no server, no tracking.
+    </footer>
+  </main>
+</body>
+</html>
