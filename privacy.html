@@ -211,11 +211,14 @@
           <tr><td>Photo library — write only</td><td>You tap "Save to Photos"</td><td>Write the share card image to your library</td><td>Card saving unavailable; nothing else affected</td></tr>
           <tr><td>Photo library — read; Camera</td><td>You tap "Upload on-site photo"</td><td>Select or capture one on-site photo</td><td>Photo upload unavailable; nothing else affected</td></tr>
           <tr><td>Location — <strong>only a location you pick manually</strong></td><td>You mark a coordinate for a legend in the content manager</td><td>Read the single coordinate you selected</td><td>Map point-marking unavailable; nothing else affected</td></tr>
+          <tr><td>Location — <strong>one-shot reading, at check-in</strong> (only when the distance-check feature is enabled)</td><td>You tap "Mark as visited"</td><td>Read your current position <strong>once</strong>, compute the distance to the legend's coordinates, and confirm you are within the check-in radius (100 m by default; 50–100 m for a single building, 200–300 m for a park or water area)</td><td>You can still mark the legend as visited — the check is advisory, not a hard block. The position is used on the spot and is <strong>not stored, not uploaded, and not added to any history</strong></td></tr>
           <tr><td>Clipboard — write only</td><td>You tap "Copy share text"</td><td>Place the share text on your clipboard</td><td>One-tap copy unavailable; you can copy manually</td></tr>
         </tbody>
       </table>
     </div>
     <p><strong>We never request:</strong> background location, continuous location, contacts, SMS, call logs, microphone, or the list of installed apps.</p>
+
+    <p><strong>About the check-in distance check.</strong> This is the only feature that reads your current position. It reads it once, at the moment you tap "Mark as visited", and only to answer one question: are you within the radius of this legend's location? The coordinate is compared locally, the distance is shown to you, and then it is discarded. We do not record a location history, we do not track your movements between legends, and we do not transmit the coordinate anywhere — we operate no server to transmit it to. Declining the permission does not lock the feature: the App explains why the check could not run and lets you mark the legend anyway.</p>
 
     <h2>5. Storage, security, and retention</h2>
 
@@ -266,10 +269,30 @@
       </table>
     </div>
 
-    <h3>7.1 Contacting us</h3>
-    <p>If you have a question we have not answered here, or you wish to make a formal request, contact us at <strong>liumaojie@fissiles.com</strong>. We will respond within 15 business days. If you are in the EEA, the UK, or Switzerland, you also have the right to lodge a complaint with your local data protection authority.</p>
+    <h3>7.1 Which law applies where, and what it gives you</h3>
+    <p>Privacy law is regional. This table states, for each market the App is distributed in, which statute we treat as governing and what it obliges us to offer you. <strong>In every one of them the practical answer converges</strong>: because the data never leaves your device, the fastest way to exercise any right is inside the App.</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>Where you are</th><th>Statute we apply</th><th>What it gives you here</th></tr></thead>
+        <tbody>
+          <tr><td>EEA (EU/EEA member states)</td><td>GDPR (Regulation 2016/679)</td><td>Access, rectification, erasure, restriction, objection, portability, and the right not to be subject to solely automated decisions. We have no processing on our side for a lawful basis, a processor, or a transfer mechanism to attach to; where the law requires a lawful basis, we rely on Art. 6(1)(b) (performance of the service you asked for) for on-device operation and on Art. 6(1)(a) (consent) for each permission you choose to grant. You may withdraw consent at any time in OS settings, and lodge a complaint with your national supervisory authority.</td></tr>
+          <tr><td>United Kingdom</td><td>UK GDPR + Data Protection Act 2018</td><td>The same set of rights, the same lawful-basis approach, and the right to complain to the Information Commissioner's Office (ICO).</td></tr>
+          <tr><td>Switzerland</td><td>FADP (revised, in force since 2023-09-01)</td><td>Access, correction, deletion, and objection; complaint to the Federal Data Protection and Information Commissioner (FDPIC).</td></tr>
+          <tr><td>California, USA</td><td>CCPA as amended by CPRA</td><td>Right to know what is collected, right to delete, right to correct, right to opt out of sale or sharing, right to limit use of sensitive personal information, and right to non-discrimination. <strong>We do not sell or share personal information, we do not collect sensitive personal information, and we offer no financial incentive for data</strong> — so the opt-out and limit rights are satisfied by there being nothing to opt out of.</td></tr>
+          <tr><td>Other US states with comprehensive privacy laws (e.g. Virginia, Colorado, Connecticut, Utah, Texas, Oregon, Montana)</td><td>The applicable state statute</td><td>We extend the same treatment described for California to every such state: access, correction, deletion, portability, and non-discrimination, with no sale of personal data and no targeted advertising.</td></tr>
+          <tr><td>Brazil</td><td>LGPD (Lei 13.709/2018)</td><td>Confirmation of processing, access, correction, anonymisation, portability, deletion, and information about sharing — in practice all satisfied on-device; the national authority is the ANPD.</td></tr>
+          <tr><td>Australia</td><td>Privacy Act 1988 and the Australian Privacy Principles</td><td>APP 12 (access) and APP 13 (correction), plus the right to complain to the OAIC. We do not collect personal information as defined by the Act.</td></tr>
+          <tr><td>Japan</td><td>Act on the Protection of Personal Information (個人情報保護法, APPI)</td><td>Disclosure, correction, suspension of use, and suspension of provision to third parties of retained personal data (保有個人データの開示・訂正・利用停止等). We collect no personal information requiring special care (要配慮個人情報), provide nothing to third parties in a foreign country, and process no personal data on a server. Complaints may be directed to us first, and to the Personal Information Protection Commission (個人情報保護委員会). <strong>A full Japanese-language policy is published separately</strong> — where the two differ, the Japanese text controls for users in Japan.</td></tr>
+          <tr><td>Mainland China</td><td>PIPL (个人信息保护法)</td><td>See the Mainland China version of this policy, presented in Simplified Chinese at first launch.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>On automated decision-making, profiling, and targeted advertising, in every jurisdiction:</strong> none of it happens. The "how scary can you handle" filter is a deterministic comparison you set yourself and can change at any time; it is not a profile, an inference, or a score.</p>
 
-    <h3>7.2 Automated decision-making</h3>
+    <h3>7.2 Contacting us</h3>
+    <p>If you have a question we have not answered here, or you wish to make a formal request, contact us at <strong>liumaojie@fissiles.com</strong>. We will respond within 15 business days. If you are in the EEA, the UK, or Switzerland, you also have the right to lodge a complaint with your local data protection authority. If you are in Japan, you may contact the Personal Information Protection Commission. If you are in California or another US state with a comprehensive privacy law, you may exercise the rights in §7.1 by writing to the same address; we will not discriminate against you for doing so.</p>
+
+    <h3>7.3 Automated decision-making</h3>
     <p>We do not use automated decision-making that produces legal or similarly significant effects on you. The suspense filter is a deterministic comparison you control, not a profile of you.</p>
 
     <h2>8. Children's privacy</h2>
