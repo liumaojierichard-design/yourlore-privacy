@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YourLore Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for YourLore (你探) · Urban Legend Pilgrimage. Choose the version for your distribution channel and region." />
+  <title>YourLore — Legal</title>
+  <meta name="description" content="Privacy Policy and User Agreement for YourLore (你探) · Urban Legend Pilgrimage. Choose the version for your distribution channel and region." />
   <meta name="robots" content="index, follow" />
   <style>
     :root {
@@ -36,6 +36,16 @@
       font-weight: 700;
     }
     .sub { color: var(--mut); font-size: 16px; margin: 0 0 32px; }
+    /* 分组标题：2026-10-26 加了「用户协议」一组，与隐私政策并列 */
+    h2.grp {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--mut);
+      margin: 34px 0 12px;
+    }
+    h2.grp:first-of-type { margin-top: 0; }
     .links { display: flex; flex-direction: column; gap: 14px; }
     a.card {
       display: block;
@@ -64,9 +74,10 @@
 </head>
 <body>
   <main>
-    <h1>YourLore Privacy Policy</h1>
-    <p class="sub">Choose the privacy policy applicable to your distribution channel and region.</p>
+    <h1>YourLore — Legal</h1>
+    <p class="sub">Choose the documents applicable to your distribution channel and region.</p>
 
+    <h2 class="grp">Privacy Policy</h2>
     <div class="links">
       <a class="card" href="privacy.html">
         <div class="t">Google Play / International — English</div>
@@ -76,6 +87,20 @@
         <div class="t">中国大陆地区 — 简体中文</div>
         <div class="d">微信小程序及中国大陆各安卓应用商店适用版本。</div>
       </a>
+    </div>
+
+    <h2 class="grp">User Agreement</h2>
+    <div class="links">
+      <a class="card" href="terms-cn.html">
+        <div class="t">中国大陆地区 — 简体中文</div>
+        <div class="d">微信小程序及中国大陆各安卓应用商店适用版本。</div>
+      </a>
+      <!-- 英文版用户协议（terms.html）落稿后，取消下面这段注释并放上文件：
+      <a class="card" href="terms.html">
+        <div class="t">Google Play / International — English</div>
+        <div class="d">For App Store, Google Play, and all regions outside mainland China.</div>
+      </a>
+      -->
     </div>
 
     <footer>
